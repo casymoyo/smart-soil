@@ -1,0 +1,70 @@
+.modal {
+  height: auto;
+  top: auto;
+  left: auto;
+  bottom: auto;
+  right: auto;
+}
+
+.label-with-icon {
+  line-height: 30px;
+  display: flex !important;
+  align-items: center;
+}
+
+.toggle-on {
+  cursor: pointer;
+}
+
+.settings .card {
+  color: #fff !important;
+  border: none !important;
+}
+.settings .card:hover {
+  background: #333 !important;
+  cursor: pointer;
+}
+@media (max-width: 576px) {
+  .settings .row {
+    flex-direction: column;
+  }
+  .settings .row .col {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+.login {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+.sm-nav {
+  background-image: url("../images/banner.png");
+  background-size: cover;
+}
+
+.dashboard .card {
+  border: none;
+  height: 250px;
+}
+.dashboard .card .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media (max-width: 576px) {
+  .dashboard .row {
+    flex-direction: column;
+  }
+  .dashboard .row .col {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+a {
+  text-decoration: none !important;
+  color: #fff !important;
+}/*# sourceMappingURL=app.css.map */
